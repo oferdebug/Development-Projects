@@ -20,7 +20,7 @@ function initBattery() {
         /* We validate if the battery is full */
         batteryStatus.innerHTML = `Full battery <i class="ri-battery-2-fill green-color"></i>`;
         batteryLiquid.style.height = "103%"; /* To hide the ellipse */
-      } else if ((level <= 20) & !batt.charging) {
+      } else if (level <= 20 && !batt.charging) {
         /* We validate if the battery is low */
         batteryStatus.innerHTML = `Low battery <i class="ri-plug-line animated-red"></i>`;
       } else if (batt.charging) {
