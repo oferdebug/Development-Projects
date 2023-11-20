@@ -1,7 +1,7 @@
 /*==============body===========*/
 body {
-  background: ghostwhite;
-  color: dimgray;
+  background: rgb(64, 149, 198);
+  color: rgb(255, 255, 255);
   font-family: serif;
   text-align: center;
 }
@@ -18,7 +18,7 @@ h1 {
 
 .box {
   display: inline-block;
-  border: 1px solid gray;
+  border: 1px solid rgb(255, 255, 255);
   width: 100px;
   height: 100px;
   text-align: center;
@@ -58,7 +58,7 @@ span {
   height: 75px;
   width: 125px;
   display: inline-block;
-  background: ghostwhite;
+  background: rgb(0, 0, 0);
   position: relative;
   z-index: 10;
   margin-top: -50%;
